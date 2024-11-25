@@ -19,5 +19,5 @@
 * The Woof Protocol: A Creative New Contract
 # Overview
 
-- [Validator] (./docs/validator.md)
-- [Miner] (./docs/miner.md)
+- [Validator](./docs/validator.md)
+- [Miner](./docs/miner.md)
