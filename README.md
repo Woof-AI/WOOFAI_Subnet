@@ -22,3 +22,14 @@
 # Notice
 The model always stays on your machine and is yours!
 The data provided by our community friends and the benefits and efficiency brought by running in the subnet will better help us train the dog model
+
+# About US
+
+WOOFAI, a pioneering project within the Bittensor ecosystem ($TAO), revolutionizes decentralized AI by focusing on dog behaviors. This DeAI model trains digital AI dogs for Web3.0, utilizing Bittensor’s robust infrastructure to enhance AI applications that interact with canine behaviors innovatively.
+1. Decentralized AI (De-AI): WOOFAI is driven by an innovative token economy, powering its DeAI framework.
+2. Integration with Meme Culture:The $DOGE of Bittensor ecosystem, ignites $TAO value with its MEME culture.
+3. Built on the Bittensor Ecosystem: Bittensor is the next-generation AI blockchain network, Co-incubated by prominent institutions such as DCG along with leading global exchanges like Binance, indicating significant backing from key players in the industry.
+4. Subnet Development and Testing: With the help of Bittensor officials and the community, WOOFAI is now in the testnet phase, testing our DeAI economic model and building early data with user participation.
+5. A new Subnet Value: Daily 7200 $TAO worth about $4 million are distributed over 50 subnets, with over 90% valued above $2 billion each. A subnet that blends Meme attributes with enhanced user interaction is likely to achieve greater popularity and value.
+6. Tokenomics: The profits from $WOOF will enhance the daily economic activity within the Bittensor network
+while its positive effects will attract more users.
