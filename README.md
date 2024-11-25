@@ -17,3 +17,7 @@
 # specificities
 *  Smart Contracts: Use smart contracts to automatically enforce pre-set rules and terms, reducing the need for users to understand technical details.
 * The Woof Protocol: A Creative New Contract
+# Overview
+
+- [Validator] (./docs/validator.md)
+- [Miner] (./docs/miner.md)
