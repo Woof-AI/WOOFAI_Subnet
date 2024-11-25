@@ -31,19 +31,19 @@ After installing Bittensor, follow these steps:
 In the project directory:
 
 ```bash
-git clone https://github.com/opentensor/bittensor-subnet-template.git 
+git clone https://github.com/Woof-AI/WOOFAI_Subnet.git
 ```
 
-Next, ``cd`'' into the ``bittensor-subnet-template`' repository directory:
+Next, ``cd`'' into the ``WOOFAI_Subnet`' repository directory:
 
 ``bash
-cd bittensor-subnet-template
+cd WOOFAI_Subnet
 ```
 
-Install the Bittensor subnet template package:
+Install the WOOFAI_Subnet package:
 
 ```bash
-python -m pip install -e . # Install your subnet template package
+python -m pip install -e .
 ```
 
 ## 2. Create wallets
