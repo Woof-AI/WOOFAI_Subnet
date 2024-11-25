@@ -30,6 +30,3 @@ WOOFAI, a pioneering project within the Bittensor ecosystem ($TAO), revolutioniz
 2. Integration with Meme Culture:The $DOGE of Bittensor ecosystem, ignites $TAO value with its MEME culture.
 3. Built on the Bittensor Ecosystem: Bittensor is the next-generation AI blockchain network, Co-incubated by prominent institutions such as DCG along with leading global exchanges like Binance, indicating significant backing from key players in the industry.
 4. Subnet Development and Testing: With the help of Bittensor officials and the community, WOOFAI is now in the testnet phase, testing our DeAI economic model and building early data with user participation.
-5. A new Subnet Value: Daily 7200 $TAO worth about $4 million are distributed over 50 subnets, with over 90% valued above $2 billion each. A subnet that blends Meme attributes with enhanced user interaction is likely to achieve greater popularity and value.
-6. Tokenomics: The profits from $WOOF will enhance the daily economic activity within the Bittensor network
-while its positive effects will attract more users.
