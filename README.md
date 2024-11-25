@@ -1,4 +1,3 @@
-# Subnet
 
 <div align="center">
 
