@@ -21,3 +21,7 @@
 
 - [Testnet](./docs/running_on_testnet.md)
 - [Mainnet](./docs/running_on_mainnet.md)
+
+# Notice
+The model always stays on your machine and is yours!
+The data provided by our community friends and the benefits and efficiency brought by running in the subnet will better help us train the dog model
