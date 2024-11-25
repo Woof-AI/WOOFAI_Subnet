@@ -27,16 +27,12 @@ After installing `bittensor`, proceed as follows:
 ``cd`'' Go to your project directory and clone the bittensor-subnet-template repository:
 
 ``bash
-git clone https://github.com/opentensor/bittensor-subnet-template.git 
+git clone https://github.com/Woof-AI/WOOFAI_Subnet.git
 ```
 
-Next, `cd` into the bittensor-subnet-template repository directory:
+Next, `cd` into the WOOFAI_Subnet
 
 ``bash
-cd bittensor-subnet-template # Enter the directory.
-```
-
-Install the bittensor-subnet-template package:
 
 ```bash
 python -m pip install -e . 
