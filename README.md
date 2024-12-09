@@ -226,7 +226,7 @@ You will see the following terminal output
 >> 2023-08-08 16:58:11.223 | info | running validator: subnet: 1 network: ws://127.0.0.1:9946 configuration: ...
 ```
 
-## 9. Getting Emissions Traffic
+## 8. Getting Emissions Traffic
 
 Register the root network with ``btcli``:
 
@@ -240,7 +240,7 @@ Then set the weights of the sub-network:
 btcli root weights --subtensor.network test
 ```
 
-## 10. Stopping the node
+## 9. Stopping the node
 
 To stop the node, press CTRL + C at the terminal where the node is running.
 
