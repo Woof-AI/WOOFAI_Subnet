@@ -1,13 +1,9 @@
-# MIT License
-# Copyright © 2023 Yuma Rao
 import os
 import time
 import typing
 import bittensor as bt
 import requests
 import base64
-
-# Bittensor Miner Template
 import template
 from template.base.miner import BaseMinerNeuron
 
@@ -23,34 +19,34 @@ class Miner(BaseMinerNeuron):
     ) -> template.protocol.DogSoundProtocol:
 
         try:
-            # 记录开始时间
+            
             start_time = time.time()
             
-            # 将Base64音频数据转换为二进制
+          
             audio_binary = base64.b64decode(synapse.audio_data)
             
-            # 准备文件数据
+          
             files = {
                 'file': ('recording.wav', audio_binary, 'audio/wav')
             }
             
-            # 调用AI服务
+          
             response = requests.post(self.api_url, files=files)
             response_json = response.json()
             
-            # 计算响应时间
+         
             response_time = time.time() - start_time
             
-            # 解析结果
-            synapse.is_dog_sound = response_json['result'] == "狗叫"
+          
+            synapse.is_dog_sound = response_json['result'] == "dog_bark"
             synapse.probability = response_json['probability']
             synapse.response_time = response_time
             
-            bt.logging.debug(f"识别结果: {response_json['result']}, 概率: {response_json['probability']}")
+            bt.logging.debug(f"result: {response_json['result']}, Probability: {response_json['probability']}")
             
         except Exception as e:
-            bt.logging.error(f"处理请求时发生错误: {str(e)}")
-            # 发生错误时设置默认值
+            bt.logging.error(f"error: {str(e)}")
+           
             synapse.is_dog_sound = False
             synapse.probability = 0.0
             synapse.response_time = 0.0
@@ -66,14 +62,14 @@ class Miner(BaseMinerNeuron):
 
         uid = self.metagraph.hotkeys.index(synapse.dendrite.hotkey)
         
-        # 检查是否是注册的热键
+ 
         if (
             not self.config.blacklist.allow_non_registered
             and synapse.dendrite.hotkey not in self.metagraph.hotkeys
         ):
             return True, "Unregistered hotkeys"
 
-        # 检查是否强制要求验证者许可
+
         if self.config.blacklist.force_validator_permit:
             if not self.metagraph.validator_permit[uid]:
                 return True, "Non-validator hotkeys"
@@ -90,7 +86,7 @@ class Miner(BaseMinerNeuron):
         bt.logging.trace(f"Request Priority {synapse.dendrite.hotkey}: {priority}")
         return priority
 
-# 主函数
+
 if __name__ == "__main__":
     with Miner() as miner:
         while True:
