@@ -200,7 +200,21 @@ miner default 0 True 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0 0
 
 Check if your miner is registered:
 
-## 8. running subnet miners and subnet validators
+
+## 8.running WOOF-recognition
+git clone https://github.com/Woof-AI/WOOF-recognition
+
+cd WOOF-recognition
+
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python app.py 
+
+## 9. running subnet miners and subnet validators
+
+start webnet
+python app.py
 
 Run the subnet miner:
 
@@ -226,7 +240,7 @@ You will see the following terminal output
 >> 2023-08-08 16:58:11.223 | info | running validator: subnet: 1 network: ws://127.0.0.1:9946 configuration: ...
 ```
 
-## 8. Getting Emissions Traffic
+## 10. Getting Emissions Traffic
 
 Register the root network with ``btcli``:
 
@@ -240,7 +254,7 @@ Then set the weights of the sub-network:
 btcli root weights --subtensor.network test
 ```
 
-## 9. Stopping the node
+## 11. Stopping the node
 
 To stop the node, press CTRL + C at the terminal where the node is running.
 
