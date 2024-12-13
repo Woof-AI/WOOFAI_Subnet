@@ -178,7 +178,7 @@ Follow the prompt:
 >> ✅ Registered
 ```
 
-## 7. Check whether your key is registered or not
+## 7.Check whether your key is registered or not
 
 This step returns information about your registered key.
 
@@ -196,22 +196,23 @@ Cold key Hot key UID Active Collateral(τ) Ranking Trust Consensus Incentive Div
 miner default 0 True 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0 0.00000 14 none 5GTFrsEQfvTsh3WjiEVFeKzFTc2xcf...
 1 1 2 τ0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 ρ0 0.00000                                                         
                                                                           Wallet balance: τ0.0         
-```
-
-Check if your miner is registered:
 
 
-## 8.running WOOF-recognition
-git clone https://github.com/Woof-AI/WOOF-recognition
+##  8.running WOOF-recognition
 
-cd WOOF-recognition
 
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python app.py 
+ git clone https://github.com/Woof-AI/WOOF-recognition
 
-## 9. running subnet miners and subnet validators
+ cd WOOF-recognition
+
+ python -m venv venv
+ source venv/bin/activate
+ pip install -r requirements.txt
+ python app.py 
+
+
+
+## 9.running subnet miners and subnet validators
 
 start webnet
 python app.py
