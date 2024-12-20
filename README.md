@@ -26,8 +26,6 @@
 # Miner and Validator Functionality
 
 # Overview
-- [Mainnet](./docs/mainnet.md)
-- [Testnet](./docs/testnet.md)
 - ⚖️ [Validator](./docs/validator.md)
 - ⛏️ [Miner](./docs/miner.md)
 
