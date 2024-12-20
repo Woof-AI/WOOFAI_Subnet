@@ -27,7 +27,7 @@ Or you can install the dependencies manually
 python3 -m venv btcli_venv
 source btcli_venv/bin/activate
 
-# setuo bittensor sdk
+# setup bittensor sdk
 pip install bittensor
 pip install -e .
 ```
