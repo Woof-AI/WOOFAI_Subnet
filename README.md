@@ -37,8 +37,15 @@ This tutorial shows how to  run incentives on it using the our testnet.
 - Make sure your incentives are resistant to abuse.
 
 ## Preparation
+#### prepare subnet
 ```bash
 git clone https://github.com/Woof-AI/WOOFAI_Subnet
+python3 -m venv btcli_venv
+source btcli_venv/bin/activate
+
+# setuo bittensor sdk
+pip install bittensor
+pip install -e .
 ```
 ##  1.running WOOF-recognition
 ```bash
@@ -52,10 +59,6 @@ git clone https://github.com/Woof-AI/WOOFAI_Subnet
  python app.py 
 ```
 
-## 2.running subnet miners and subnet validators
-```bash
-export AI_API_URL="your_model_url"
-```
 ### start miner
 ```bash
 python neurons/miner.py --netuid 248 --subtensor.network test --wallet.name miner --wallet.hotkey miner --logging.debug
